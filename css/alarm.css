@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #dfdfdf;
+  color: #019CDB;
+  font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+}
+
+.flex {
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button {
+  border: 2px solid #019cdb;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 12px;
+  padding: 12px 30px;
+}
+
+.button:hover {
+  background-color: #019CDB;
+  color: #dfdfdf;
+  cursor: pointer;
+}
+
+#timer {
+  margin-top: 2%;
+}
+
+.alarm-container {
+  margin-top: 3%;
+  text-align: center;
+}
+
+.red {
+  color: red;
+}
