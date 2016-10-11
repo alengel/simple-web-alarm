@@ -22,7 +22,7 @@ function getCurrentTime() {
 
 function setTime(now) {
     var time = document.getElementById('timer');
-    time.textContent = getCurrentTime().format('hh:mm:ss');
+    time.textContent = getCurrentTime().format('HH:mm:ss');
 }
 
 function setAlarm() {
@@ -31,7 +31,7 @@ function setAlarm() {
         newAlarm = moment().add(randomNumber, 'seconds');
     
     checkAlarm(randomNumber);
-    alarm.textContent = newAlarm.format('hh:mm:ss');
+    alarm.textContent = newAlarm.format('HH:mm:ss');
 }
 
 function pickRandomNumber() {
